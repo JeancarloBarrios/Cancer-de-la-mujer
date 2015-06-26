@@ -1,0 +1,79 @@
+#custom-navbar.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-navbar.navbar-default {
+    font-size: 17px;
+    background-color: rgba(250, 180, 238, 1);
+    background: -webkit-linear-gradient(top, rgba(254, 123, 216, 1) 0%, rgba(250, 180, 238, 1) 100%);
+    background: linear-gradient(to bottom, rgba(254, 123, 216, 1) 0%, rgba(250, 180, 238, 1) 100%);
+    border-bottom-width: 1px;
+}
+#custom-navbar.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-navbar.navbar-default .navbar-nav>li>a:hover,
+#custom-navbar.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(252, 201, 242, 1);
+}
+#custom-navbar.navbar-default .navbar-nav>.active>a,
+#custom-navbar.navbar-default .navbar-nav>.active>a:hover,
+#custom-navbar.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(255, 173, 239, 1);
+}
+#custom-navbar.navbar-default .navbar-toggle {
+    border-color: #ffadef;
+}
+#custom-navbar.navbar-default .navbar-toggle:hover,
+#custom-navbar.navbar-default .navbar-toggle:focus {
+    background-color: #ffadef;
+}
+#custom-navbar.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffadef;
+}
+#custom-navbar.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-navbar.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fab4ee;
+}
+
+
+
+
+
+.imageClip{
+    width:715px;
+    height:465px;
+    overflow:hidden;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+
+
+.carousel-indicators li {
+  border-color:#999;
+  background-color:#ccc;
+}
+
+.carousel-inner {
+    margin-bottom:50px;
+    text-align: center;
+}
+
+
+.carousel .item > img { display: inline-block; }
+
+.Container {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    margin-top: -100px;
+    padding-top: 100px;
+    position: relative;
+    width: 100%;
+    backface-visibility: hidden;
+    will-change: overflow;
+}
+
